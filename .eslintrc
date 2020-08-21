@@ -1,0 +1,35 @@
+{
+    "extends": [
+        "wesbos"
+    ],
+    "rules": {
+        "no-unused-vars": [
+            1,
+            {
+                "vars": "all",
+                "args": "after-used",
+                "ignoreRestSiblings": false
+            }
+        ],
+        "no-undef": 2,
+        "no-var": 2,
+        "no-console": 1,
+        "no-debugger": 2,
+        "prefer-const": 1,
+        "prettier/prettier": [
+            2,
+            {
+                "trailingComma": "none",
+                "singleQuote": true,
+                "printWidth": 80,
+                "tabWidth": 2,
+                "bracketSpacing": true,
+                "semi": true,
+                "useTabs": false,
+                "jsxBracketSameLine": false,
+                "arrowParens": "avoid",
+                "quoteProps": "consistent"
+            }
+        ]
+    }
+}
